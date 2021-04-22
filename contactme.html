@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content ="This is a website for the web individual assignment.">
+    <meta name="author" content = "Kemas Raihan">
+
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href="assignmentstyle.css" rel="stylesheet" type="text/css" />
+    <title>Kemas Raihan - Homepage</title>
+    <script src="https://kit.fontawesome.com/5640b1c039.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+  <header>
+    
+    <div class="header-container">
+
+        <div class="menu-dropdown">
+          <button class="menu-button"><img src="hamburger_icon.png" height=60px width=60px></button>
+          <div class="dropdown-content">
+            <a href="home.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="curriculumvitae.html">Curriculum Vitae</a>
+            <a href="contactme.html">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="webtitle">
+            <h1>Kemas Raihan</h1>
+        </div>
+
+        <div class="social-media">
+          <a href="https://twitter.com/sheffhallamuni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="twitter.png" class="social-media-link"></a>
+          <a href="https://www.facebook.com/sheffieldhallamuniversity/" target="_blank"><img src="facebook.png" class="social-media-link"></a>
+          <a href="https://www.instagram.com/sheffhallamuni/?hl=en" target="_blank"><img src="instagram.png" class="social-media-link instagram-link"></a>
+          <a href="https://www.youtube.com/user/sheffieldhallamuni" target="_blank"><img src="youtube.png" class="social-media-link youtube-link"></a>
+        </div>
+
+    </div>
+
+  </header>
+
+  <section>
+
+    <div class="form-container">
+
+      <div class="form-header">
+        <h2>Contact Me</h2>
+      </div>
+
+      <form class="form" action="confirm.html" id="form">
+
+        <div class="form-control">
+          <label for="">Email</label>
+          <input type="text" placeholder="Enter your email-address" id="email">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+      
+        <div class="form-control">
+          <label for="">Telephone Number</label>
+          <input type="text" placeholder="Enter your telephone number" id="telephone">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+      
+        <div class="form-control">
+          <label for="">First Name</label>
+          <input type="text" placeholder="Enter your first name" id="firstname">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+      
+        <div class="form-control">
+          <label for="">Surname</label>
+          <input type="text" placeholder="Enter your surname" id="surname">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        
+          <button>Submit</button>
+      </form>
+
+    </div>
+    <p id="demo"></p>
+  </section>
+
+  <footer>
+  <p id="copyright">&#169; 2020 Kemas Raihan</p>
+  </footer>
+
+  <script src="form.js"></script>
+  </body>
+</html>
